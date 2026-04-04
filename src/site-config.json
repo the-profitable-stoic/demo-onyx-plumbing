@@ -1,0 +1,512 @@
+{
+  "business": {
+    "name": "Onyx Plumbing",
+    "phone": "555-plu-r93",
+    "category": "plumbing",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  "design": {
+    "preset": {
+      "id": "plumbing-dark-premium",
+      "categoryGroup": "plumbing",
+      "name": "Dark Premium",
+      "recipeFile": "plumbing/dark-premium.astro",
+      "colors": {
+        "primary": "#38BDF8",
+        "primaryDark": "#2d97c6",
+        "primaryLight": "#afe5fc",
+        "secondary": "#2A2A2A",
+        "accent": "#56c7f9",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "plumbing/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Reliable Plumbing Solutions for Atlanta Homes",
+      "heroSubline": "Family-owned plumbing service with deep roots in Atlanta. We understand the unique challenges of Georgia's climate and aging homes.",
+      "aboutTitle": "Trusted Atlanta Plumbers Since 2012",
+      "aboutText": [
+        "Onyx Plumbing began when founder Michael Carter noticed how many neighbors struggled with leaky pipes in Atlanta's historic homes. What started as one truck serving Virginia-Highland has grown into a team serving all of North Metro Atlanta.",
+        "We combine old-school craftsmanship with modern leak detection technology. Whether it's a bungalow's cast iron pipes or a new build's PEX system, we treat every home like our own.",
+        "From sponsoring Little League teams to volunteering with Atlanta Community Food Bank, we're committed to being more than just your plumber."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "When your basement floods during an Atlanta thunderstorm, we'll be there within the hour, day or night."
+        },
+        {
+          "title": "Clay-Soil Specialists",
+          "description": "We know how Georgia's shifting red clay affects pipes and foundations, so we install with future movement in mind."
+        },
+        {
+          "title": "Pollen-Proof Solutions",
+          "description": "Our gutter and drainage work accounts for Atlanta's heavy spring pollen that clogs most systems."
+        },
+        {
+          "title": "Historic Home Experts",
+          "description": "We preserve the charm of Craftsman-era plumbing while bringing it up to modern standards."
+        }
+      ],
+      "ctaHeadline": "Same-Day Service for Atlanta Homes",
+      "ctaSubline": "Call 555-PLU-R93 now for plumbing that stands up to Georgia's climate"
+    },
+    "services": [
+      {
+        "slug": "emergency-plumbing",
+        "name": "Emergency Plumbing",
+        "shortDescription": "Fast response when burst pipes or backups threaten your Atlanta home.",
+        "description": "When an aging pipe bursts in your Midtown loft or your Dunwoody basement floods after heavy rains, every minute counts. Our rapid-response teams carry specialized equipment for Atlanta's most common emergencies - from trenchless pipe repair tools to industrial-grade wet vacs.\n\nWe prioritize safety during Georgia's ice storms, knowing older homes often lack proper pipe insulation. For post-storm emergencies, we coordinate directly with your insurance provider. Recent projects include saving a Buckhead homeowner's original 1930s tile work after a main line rupture, and preventing mold in an Inman Park crawlspace after a flash flood.",
+        "process": [
+          "Step 1: Immediate phone assessment to contain damage",
+          "Step 2: Truck dispatch with GPS-tracked ETA",
+          "Step 3: On-site diagnosis with sewer camera if needed",
+          "Step 4: Temporary fix followed by permanent solution plan"
+        ],
+        "benefits": [
+          "Average 45-minute metro Atlanta response time",
+          "No overtime charges for nights/weekends",
+          "Insurance claim documentation assistance",
+          "Prevent secondary water damage"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you reach me during Atlanta's rush hour?",
+            "answer": "We strategically position trucks around I-285 and GA-400. Even in peak traffic, our average response time from call to arrival is under 90 minutes for most intown neighborhoods."
+          },
+          {
+            "question": "Do you handle slab leaks common in ranch homes?",
+            "answer": "Yes, we specialize in non-invasive detection and repair for the concrete slab foundations found in 1950s-70s Atlanta homes. Our thermal imaging finds leaks without unnecessary concrete breaking."
+          }
+        ]
+      },
+      {
+        "slug": "water-heater-installation",
+        "name": "Water Heater Installation",
+        "shortDescription": "Georgia-approved installations that handle hard water and summer demand spikes.",
+        "description": "Atlanta's mineral-rich water shortens most water heaters' lifespans. We install models specifically rated for Georgia's hard water, with reinforced anode rods and easy-flush valves. For historic homes where closet-sized water heaters hide under stairs, we source compact yet powerful units.\n\nWe've replaced hundreds of water heaters in Druid Hills' mid-century ranches where original units finally failed. Our installs account for Georgia Power's peak pricing by including smart controls. Recent projects include upgrading a Virginia-Highland home to tankless without altering its historic exterior, and solving chronic lukewarm showers in a Sandy Springs McMansion by installing parallel high-output units.",
+        "process": [
+          "Step 1: Water testing and usage pattern analysis",
+          "Step 2: Recommend budget-friendly options meeting Atlanta codes",
+          "Step 3: Careful removal of old unit (we recycle at local centers)",
+          "Step 4: Installation with earthquake straps and leak detectors"
+        ],
+        "benefits": [
+          "Models rated for 10+ years in Georgia water",
+          "Permits pulled same-day for most Atlanta jurisdictions",
+          "Smart thermostat integration available",
+          "No mess left behind"
+        ],
+        "faq": [
+          {
+            "question": "Why do Atlanta water heaters fail sooner than national averages?",
+            "answer": "Our water's high mineral content causes rapid sediment buildup and corrosion. We install units with commercial-grade dip tubes and offer annual maintenance to combat this."
+          },
+          {
+            "question": "Can you install tankless in my 1920s bungalow?",
+            "answer": "Absolutely. We've retrofitted hundreds of historic Atlanta homes with compact tankless systems, often utilizing existing gas lines and chimney flues with proper adapters."
+          }
+        ]
+      },
+      {
+        "slug": "drain-cleaning",
+        "name": "Drain Cleaning",
+        "shortDescription": "Solving Atlanta's worst clogs from tree roots to grease buildup.",
+        "description": "Between Piedmont Park's massive oaks and decades of grease going down kitchen sinks, Atlanta drains face unique challenges. We use industrial-grade augers and hydro-jetters to clear blockages without damaging your pipes. For historic homes with delicate clay sewer lines, we employ gentle yet effective methods.\n\nOur camera inspections often reveal surprises - like the 6-foot magnolia root mass we extracted from a Morningside home's main line. We also handle frequent issues in Buckhead's older restaurants and Virginia-Highland's cottage rentals where hair and soap scum combine into stubborn clogs. Every service includes a follow-up check to prevent repeat issues.",
+        "process": [
+          "Step 1: Camera inspection to locate exact blockage",
+          "Step 2: Method selection based on pipe material and age",
+          "Step 3: Thorough cleaning with debris removal",
+          "Step 4: Follow-up camera verification"
+        ],
+        "benefits": [
+          "No harsh chemicals that damage Atlanta's aging pipes",
+          "Root intrusion warranty available",
+          "Grease trap services for commercial kitchens",
+          "Preventative maintenance plans"
+        ],
+        "faq": [
+          {
+            "question": "Why does my drain keep clogging after basic snaking?",
+            "answer": "Many Atlanta homes have bellied pipes from soil movement. We check for low spots where debris accumulates, then recommend either lining or spot replacement."
+          },
+          {
+            "question": "How do you protect my landscaping during drain work?",
+            "answer": "For exterior line access, we use vacuum excavation that removes soil with air instead of backhoes, preserving azaleas and boxwoods common in Atlanta yards."
+          }
+        ]
+      },
+      {
+        "slug": "pipe-repair-replacement",
+        "name": "Pipe Repair & Replacement",
+        "shortDescription": "Solutions for Atlanta's shifting soils and aging infrastructure.",
+        "description": "Georgia's expansive clay wreaks havoc on plumbing systems. We've mastered techniques to repair pipes without destroying your landscaping or hardwood floors. For historic homes, we source period-appropriate materials when possible - like matching original pipe diameters in Ansley Park estates.\n\nOur trenchless pipe lining saves thousands compared to full replacements, ideal for Buckhead's hilly lots where excavation is costly. We also handle frequent freeze-related bursts in Cabbagetown's exposed pipes. Recent projects include rerouting a Druid Hills home's main line away from a collapsing oak root system, and repairing galvanized pipes in an Adair Park renovation without removing original shiplap walls.",
+        "process": [
+          "Step 1: Comprehensive leak detection with acoustic sensors",
+          "Step 2: Discussion of repair vs replacement options",
+          "Step 3: Minimal-invasive technique selection",
+          "Step 4: Installation with future soil movement in mind"
+        ],
+        "benefits": [
+          "Trenchless options save up to 70% over traditional digging",
+          "Freeze-resistant insulation upgrades available",
+          "Same-day service for critical failures",
+          "5-year warranty on all pipe work"
+        ],
+        "faq": [
+          {
+            "question": "How long will new pipes last in Atlanta's soil?",
+            "answer": "Our HDPE and copper repipe jobs typically last 25+ years. We add extra protection at stress points where clay shifts most."
+          },
+          {
+            "question": "Can you match my home's historical pipe materials?",
+            "answer": "Yes, we maintain relationships with specialty foundries to replicate early 20th century pipe threads and fittings when preservation is required."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-remodeling",
+        "name": "Bathroom Remodeling",
+        "shortDescription": "Plumbing-centric renovations respecting Atlanta's architectural heritage.",
+        "description": "From clawfoot tub restorations in Grant Park to spacious showers in new Vinings condos, we handle plumbing for Atlanta's diverse bathroom styles. We preserve historic charm while adding modern water efficiency - like discreet low-flow mechanisms in antique fixtures.\n\nOur designs account for Georgia's humidity with proper ventilation solutions. Recent projects include a Jack-and-Jill bathroom conversion in a Buckhead Tudor, a wheelchair-accessible master bath in Decatur, and preserving the hex tile while replumbing a Candler Park bungalow's 1920s bathroom. We coordinate with your tile setter and electrician for seamless results.",
+        "process": [
+          "Step 1: Consultation assessing plumbing feasibility of your design",
+          "Step 2: Selection of moisture-resistant materials for Georgia's climate",
+          "Step 3: Careful demolition protecting existing finishes",
+          "Step 4: Installation with accessibility and maintenance in mind"
+        ],
+        "benefits": [
+          "Historic district permit expertise",
+          "Mold-resistant material options",
+          "Universal design capabilities",
+          "Lifetime warranty on labor"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my home's original bathroom fixtures?",
+            "answer": "We've sourced exact matches for everything from 1940s pedestal sinks to hex faucet handles through specialty salvagers and custom fabricators."
+          },
+          {
+            "question": "How do you prevent humidity damage in Atlanta bathrooms?",
+            "answer": "We install commercial-grade exhaust systems sized for your square footage, with humidity sensors and timer switches to combat our sticky summers."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Danielle K.",
+        "rating": 5,
+        "service": "Emergency pipe burst repair",
+        "text": "When a frozen pipe burst in our Virginia-Highland bungalow's crawlspace during the January 2024 freeze, Onyx had a team here in 38 minutes. They salvaged our original hardwood floors by extracting water fast, then rerouted the pipe away from the exterior wall to prevent future freezing. Worth every penny.",
+        "date": "2024-01-15"
+      },
+      {
+        "name": "Marcus W.",
+        "rating": 5,
+        "service": "Trenchless sewer line replacement",
+        "text": "Our Ansley Park home's clay sewer line collapsed under the driveway. Onyx's no-dig solution saved us $15K over traditional replacement and didn't disturb our prized camellias. The crew even matched the original 1925 pipe diameter exactly for proper drainage flow.",
+        "date": "2023-11-02"
+      },
+      {
+        "name": "Elena R.",
+        "rating": 5,
+        "service": "Bathroom remodel plumbing",
+        "text": "The team beautifully integrated modern shower plumbing into our 1947 Decatur ranch without altering its character. They custom-fabricated escutcheon plates to match existing fixtures and suggested a brilliant wall-mounted faucet that freed up counter space. Their attention to detail was remarkable.",
+        "date": "2023-09-18"
+      },
+      {
+        "name": "Thomas B.",
+        "rating": 5,
+        "service": "Water heater installation",
+        "text": "After three plumbers said our Buckhead carriage house needed major electrical upgrades for tankless, Onyx found a compact model that worked with existing wiring. It's been flawless through two Atlanta summers of back-to-back guests. They really understand old home challenges.",
+        "date": "2023-07-22"
+      },
+      {
+        "name": "Priya S.",
+        "rating": 5,
+        "service": "Main line clearing",
+        "text": "Our Inman Park restaurant's grease trap kept failing inspections until Onyx redesigned the drainage slope and installed a commercial-grade interceptor. They came during off-hours to avoid disrupting service and trained our staff on proper maintenance. Business hasn't missed a day since.",
+        "date": "2023-05-30"
+      },
+      {
+        "name": "James L.",
+        "rating": 5,
+        "service": "Whole-house repiping",
+        "text": "The crew replumbed our entire Morningside 1950s ranch with PEX in just two days, working around my home office schedule. They patched drywall so neatly our painter said it was the cleanest plumbing job he'd ever seen. No more rusty water stains on our sinks!",
+        "date": "2023-03-10"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Atlanta Plumbing Services | Emergency Repairs & Installations",
+        "description": "Family-owned plumbing company serving Atlanta since 2012. Specializing in historic home plumbing, emergency repairs, and Georgia climate-specific solutions."
+      },
+      "about": {
+        "title": "About Our Atlanta Plumbing Company | Onyx Plumbing",
+        "description": "Learn about our Atlanta roots, commitment to craftsmanship, and community involvement. Local plumbers who understand Georgia homes inside and out."
+      },
+      "services": {
+        "title": "Atlanta Plumbing Services | Expert Repairs & Installations",
+        "description": "Complete plumbing services for Atlanta homes including emergency repairs, water heater installation, drain cleaning, pipe replacement, and bathroom remodels."
+      },
+      "contact": {
+        "title": "Contact Atlanta's Trusted Plumbing Experts | Onyx Plumbing",
+        "description": "Need a plumber in Atlanta? Call 555-PLU-R93 for same-day service. Serving all North Metro areas including Buckhead, Midtown, and historic neighborhoods."
+      },
+      "reviews": {
+        "title": "Atlanta Plumbing Reviews | Onyx Plumbing Customer Stories",
+        "description": "Read verified reviews from Atlanta homeowners who've experienced our plumbing services firsthand. Real stories from Buckhead to Decatur and beyond."
+      },
+      "service-areas": {
+        "title": "Atlanta Plumbing Service Areas | Local Expertise",
+        "description": "We serve all North Metro Atlanta communities including Marietta, Roswell, Alpharetta, Johns Creek, and Kennesaw with tailored plumbing solutions."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Marietta",
+        "slug": "marietta-ga",
+        "state": "GA",
+        "content": "Onyx Plumbing proudly serves the Marietta community, where many homes were built in the 1960s and 70s. These older subdivisions often have plumbing systems that require maintenance or upgrades, especially given the hot, humid summers that can stress pipes and fixtures. Our team specializes in repiping, leak detection, and water heater services tailored to these vintage homes. We understand the unique challenges of maintaining plumbing in Marietta’s climate and are committed to providing reliable, long-lasting solutions.",
+        "localContext": "Marietta features 1960s-70s subdivisions with aging plumbing systems, making maintenance and upgrades essential.",
+        "nearbyAreas": [
+          "Smyrna",
+          "Kennesaw",
+          "Woodstock"
+        ]
+      },
+      {
+        "city": "Roswell",
+        "slug": "roswell-ga",
+        "state": "GA",
+        "content": "In Roswell, Onyx Plumbing provides top-tier services for upscale subdivisions built in the 1980s and 90s. These homes often feature modern plumbing systems, but the hot, humid summers can still lead to issues like pipe corrosion and slab leaks. Our experts offer preventative maintenance, emergency repairs, and fixture upgrades to keep your home running smoothly. Whether you need a minor fix or a major overhaul, we’re here to ensure your plumbing withstands Roswell’s climate.",
+        "localContext": "Roswell’s upscale 1980s-90s subdivisions benefit from our expertise in modern plumbing systems and climate-specific solutions.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Johns Creek",
+          "Sandy Springs"
+        ]
+      },
+      {
+        "city": "Alpharetta",
+        "slug": "alpharetta-ga",
+        "state": "GA",
+        "content": "Alpharetta’s upscale developments from the 1990s and 2000s demand high-quality plumbing services, and Onyx Plumbing delivers. The hot, humid summers can strain even the newest systems, leading to leaks or inefficient water pressure. We specialize in whole-house repiping, water heater installations, and smart plumbing upgrades tailored to Alpharetta’s luxurious homes. Trust us to keep your plumbing in peak condition year-round.",
+        "localContext": "Alpharetta’s 1990s-2000s upscale developments require expert plumbing care to handle the humid climate.",
+        "nearbyAreas": [
+          "Roswell",
+          "Johns Creek",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Johns Creek",
+        "slug": "johns-creek-ga",
+        "state": "GA",
+        "content": "Onyx Plumbing is the go-to choice for Johns Creek homeowners in upscale 1990s-2000s subdivisions. The hot, humid summers here can accelerate wear and tear on plumbing systems, making regular maintenance a must. Our services include leak detection, pipe repairs, and water-efficient fixture installations to protect your home. With Onyx Plumbing, you can count on reliable, professional service tailored to Johns Creek’s unique needs.",
+        "localContext": "Johns Creek’s upscale 1990s-2000s subdivisions need expert plumbing to combat the effects of humid summers.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Roswell",
+          "Suwanee"
+        ]
+      },
+      {
+        "city": "Kennesaw",
+        "slug": "kennesaw-ga",
+        "state": "GA",
+        "content": "Kennesaw’s 1980s-90s suburban developments rely on Onyx Plumbing for dependable service. The hot, humid summers can cause pipes to expand and contract, leading to leaks or bursts. Our team excels in repiping, drain cleaning, and emergency repairs to keep your home safe and functional. We’re proud to serve Kennesaw with plumbing solutions designed for its climate and housing stock.",
+        "localContext": "Kennesaw’s 1980s-90s suburban homes benefit from our expertise in humid-weather plumbing challenges.",
+        "nearbyAreas": [
+          "Marietta",
+          "Acworth",
+          "Woodstock"
+        ]
+      },
+      {
+        "city": "Sandy Springs",
+        "slug": "sandy-springs-ga",
+        "state": "GA",
+        "content": "Onyx Plumbing provides expert services for Sandy Springs’ mix of older and modern homes. The hot, humid summers here can take a toll on plumbing systems, requiring vigilant maintenance and timely repairs. From leak detection to sewer line replacements, we offer comprehensive solutions to keep your home’s plumbing in top shape. Trust us to handle Sandy Springs’ unique plumbing needs with professionalism and care.",
+        "localContext": "Sandy Springs’ diverse housing stock demands adaptable plumbing solutions for its humid climate.",
+        "nearbyAreas": [
+          "Roswell",
+          "Dunwoody",
+          "Atlanta"
+        ]
+      },
+      {
+        "city": "Woodstock",
+        "slug": "woodstock-ga",
+        "state": "GA",
+        "content": "Woodstock’s growing suburban community counts on Onyx Plumbing for reliable service. The hot, humid summers can strain plumbing systems, particularly in older homes. We specialize in repiping, water heater services, and drain cleaning to ensure your home stays comfortable year-round. Whether you’re in a historic property or a newer build, we’ve got you covered.",
+        "localContext": "Woodstock’s mix of older and newer homes requires tailored plumbing solutions for humid summers.",
+        "nearbyAreas": [
+          "Kennesaw",
+          "Marietta",
+          "Canton"
+        ]
+      },
+      {
+        "city": "Dunwoody",
+        "slug": "dunwoody-ga",
+        "state": "GA",
+        "content": "Dunwoody’s upscale homes and businesses trust Onyx Plumbing for top-notch service. The hot, humid summers can lead to plumbing issues like pipe corrosion and slow drains. Our team offers everything from routine maintenance to complex installations, ensuring your systems operate efficiently. We’re proud to serve Dunwoody with solutions designed for its climate and lifestyle.",
+        "localContext": "Dunwoody’s upscale properties need expert plumbing to handle the challenges of humid summers.",
+        "nearbyAreas": [
+          "Sandy Springs",
+          "Brookhaven",
+          "Atlanta"
+        ]
+      },
+      {
+        "city": "Suwanee",
+        "slug": "suwanee-ga",
+        "state": "GA",
+        "content": "Suwanee’s family-friendly neighborhoods rely on Onyx Plumbing for dependable service. The hot, humid summers here can stress plumbing systems, making preventative care essential. We specialize in leak repairs, water heater maintenance, and sewer line inspections to keep your home running smoothly. Trust us to provide Suwanee with plumbing solutions that stand up to the climate.",
+        "localContext": "Suwanee’s suburban homes benefit from our expertise in humid-weather plumbing maintenance.",
+        "nearbyAreas": [
+          "Johns Creek",
+          "Buford",
+          "Duluth"
+        ]
+      },
+      {
+        "city": "Acworth",
+        "slug": "acworth-ga",
+        "state": "GA",
+        "content": "Acworth’s lakeside homes and subdivisions turn to Onyx Plumbing for expert care. The hot, humid summers can accelerate wear on plumbing systems, particularly in older properties. Our services include pipe repairs, water heater replacements, and sewer line maintenance to protect your home. We’re committed to keeping Acworth’s plumbing in top condition year-round.",
+        "localContext": "Acworth’s mix of older and newer homes requires specialized plumbing solutions for humid summers.",
+        "nearbyAreas": [
+          "Kennesaw",
+          "Woodstock",
+          "Marietta"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "emergency-plumbing": "/images/service-emergency-plumbing.webp",
+      "water-heater-installation": "/images/service-water-heater-installation.webp",
+      "drain-cleaning": "/images/service-drain-cleaning.webp",
+      "pipe-repair-replacement": "/images/service-pipe-repair-replacement.webp",
+      "bathroom-remodeling": "/images/service-bathroom-remodeling.webp"
+    },
+    "servicesResponsive": {
+      "emergency-plumbing": {
+        "src": "/images/service-emergency-plumbing.webp",
+        "srcset": "/images/service-emergency-plumbing-400w.webp 400w, /images/service-emergency-plumbing-800w.webp 800w, /images/service-emergency-plumbing-1200w.webp 1200w, /images/service-emergency-plumbing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "water-heater-installation": {
+        "src": "/images/service-water-heater-installation.webp",
+        "srcset": "/images/service-water-heater-installation-400w.webp 400w, /images/service-water-heater-installation-800w.webp 800w, /images/service-water-heater-installation-1200w.webp 1200w, /images/service-water-heater-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drain-cleaning": {
+        "src": "/images/service-drain-cleaning.webp",
+        "srcset": "/images/service-drain-cleaning-400w.webp 400w, /images/service-drain-cleaning-800w.webp 800w, /images/service-drain-cleaning-1200w.webp 1200w, /images/service-drain-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pipe-repair-replacement": {
+        "src": "/images/service-pipe-repair-replacement.webp",
+        "srcset": "/images/service-pipe-repair-replacement-400w.webp 400w, /images/service-pipe-repair-replacement-800w.webp 800w, /images/service-pipe-repair-replacement-1200w.webp 1200w, /images/service-pipe-repair-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-remodeling": {
+        "src": "/images/service-bathroom-remodeling.webp",
+        "srcset": "/images/service-bathroom-remodeling-400w.webp 400w, /images/service-bathroom-remodeling-800w.webp 800w, /images/service-bathroom-remodeling-1200w.webp 1200w, /images/service-bathroom-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
